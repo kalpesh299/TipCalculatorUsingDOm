@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TipSharingCalculator</title>
+    <link href="./tipsharingcalculator.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1>Kalp's Tip Calculator</h1>
+        <p>How much was your bill?</p>
+        <label>Rs.</label>
+        <input class="input" type="number">
+        <p>How was your service?</p>
+        <select class="options">
+            <option>Select Your Satisfaction Percentage</option>
+            <option value="30">30% Outstanding</option>
+            <option value="20"> 20% Good</option>
+            <option value="15">15% its Ok</option>
+            <option value="10">10% bad</option>
+            <option value="5">5% Terrible</option>
+           
+            
+        </select>
+         <p>How many people are sharing the bill?</p>
+        <input type="number" class="people"><br>
+        <button type="submit" class="submit_btn">Calculate!</button>
+        <p class="amo">Tip Amount</p>
+        <h2 class="result"></h2>
+    </div>
+   <script src="./tipsharingcalculator.js"></script>
+</body>
+</html>

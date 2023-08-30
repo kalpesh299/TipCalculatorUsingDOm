@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://media.gettyimages.com/photos/mix-cut-fruits-in-plates-on-ice-slab-picture-id1325602477");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+    height:90%;
+    width:30%;
+    border: 2px solid green;
+    justify-content: center;
+    padding-left: 2em;
+    background-color: white;
+}
+.main h1{
+    text-align: center;
+    margin-top: 5%;
+}
+.main p{
+    margin-top: 2em;
+    font-size: 1.5em;
+    color: brown;
+}
+.main button{
+    margin-top: 2em;
+    width: 90%;
+    height: 10%;
+    color: white;
+    background-color: brown;
+    font-size: 2em;
+}
+.main h2{
+    text-align: center;
+}
+.amo{
+    text-align: center;
+}
